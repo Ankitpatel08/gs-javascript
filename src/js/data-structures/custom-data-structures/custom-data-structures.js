@@ -1,2 +1,3 @@
-import './linked-list';
 import './stacks';
+import './queues';
+import './linked-list';
