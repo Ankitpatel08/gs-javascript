@@ -105,7 +105,7 @@ class LinkedList {
     }
 }
 
-console.group('*** Linked List ***');
+console.groupCollapsed('*** Linked List ***');
 const firstLinkedList = new LinkedList();
 
 firstLinkedList.append('ankit');
