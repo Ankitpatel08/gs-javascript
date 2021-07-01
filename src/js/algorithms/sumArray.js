@@ -1,4 +1,4 @@
-console.group('*** SumArray | For Loop ***');
+console.groupCollapsed('*** SumArray | For Loop ***');
 /**
  * Calculate the sum of array of numbers e.g. [1,2,5] = 8
  * Time Complexity: O(n) | Linear

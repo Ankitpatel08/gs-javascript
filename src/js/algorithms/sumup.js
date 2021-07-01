@@ -1,7 +1,7 @@
 /**
  * Time Complexity: Count the number of expression executions
  */
- console.group('*** SumUp | For Loop ***');
+ console.groupCollapsed('*** SumUp | For Loop ***');
 /**
  * sumup : add numbers till limit number
  * @param {*} n : limit
@@ -30,7 +30,7 @@ sumup(1000);
 sumup(1000000);
 console.groupEnd();
 
-console.group('*** SumUp | Math Equation ***');
+console.groupCollapsed('*** SumUp | Math Equation ***');
 /**
  *  sum using equation : n(n+1)/2
  *  Time Complexity: T = 1
