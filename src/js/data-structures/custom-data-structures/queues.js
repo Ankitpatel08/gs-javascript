@@ -1,4 +1,4 @@
-console.group('*** Queue ***');
+console.groupCollapsed('*** Queue ***');
 
 /**
  * Queue: FIFO : first in first out
