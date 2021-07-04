@@ -11,6 +11,5 @@
 * | O(2^n)   | Exponential Time | 
 * -------------------------------
 */
-
 import './sumup';
 import './sumArray';

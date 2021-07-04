@@ -1,4 +1,4 @@
-console.group('*** Recursion ***');
+console.groupCollapsed('*** Recursion ***');
 /**
  * Recursive function: Function calls itself, untill it doesn't
  * always have condition to stop; else will go in infinite loop
