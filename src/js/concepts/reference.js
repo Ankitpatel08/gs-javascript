@@ -1,4 +1,4 @@
-console.group('*** Reference Type ***');
+console.groupCollapsed('*** Reference Type ***');
 
 // primitive type | store: stack
 let name = 'Ankit';
