@@ -1,5 +1,5 @@
 import {createCardMarkup, injectMakup} from '../util/dom-helpers';
-console.group('*** This ***');
+console.groupCollapsed('*** This ***');
 
 let thisMarkup = createCardMarkup({
     title: 'Concept: This',
