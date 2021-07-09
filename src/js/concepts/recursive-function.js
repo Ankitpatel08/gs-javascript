@@ -47,4 +47,16 @@ function printFibonaci(startEl = 0, secondEl = 1) {
 
 printFibonaci();
 
+console.log('*** factorial 5 ***');
+function factorial(n) {
+    // condition to stop loop
+    if (n === 0) {
+        return 1;
+    }
+    // recursive step
+    return n * factorial(n - 1);
+}
+
+console.log(factorial(5));
+
 console.groupEnd();
