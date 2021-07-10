@@ -13,3 +13,4 @@
 */
 import './sumup';
 import './sumArray';
+import './array/array';

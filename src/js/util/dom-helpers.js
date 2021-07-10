@@ -9,7 +9,7 @@ export function createCardMarkup({title, description, markup}) {
                 <h3 class="subtitle">${title}</h3>
                 <div class="description">${createDescriptionList(description)}</div>
                 <hr />
-                <div>${markup}</div>
+                <div class="markup-wrapper">${markup}</div>
             </div>`;
 }
 
