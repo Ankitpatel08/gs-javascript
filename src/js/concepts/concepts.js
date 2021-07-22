@@ -1,5 +1,6 @@
 import './reference';
 import './this';
+import './closures';
 import './recursive-function';
 import './spread-rest';
 import './destructuring';

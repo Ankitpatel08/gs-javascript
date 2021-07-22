@@ -87,4 +87,9 @@ const isArmstrong = (num) => {
 console.log('is Armstrong :: 153', isArmstrong(153));
 console.log('is Armstrong :: 585', isArmstrong(585));
 
+//  make a first letter uppercase
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+
+console.log('Capitalize:: ', capitalize('test test'));
+
 console.groupEnd();
