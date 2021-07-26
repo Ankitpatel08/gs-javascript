@@ -31,4 +31,16 @@ console.log('-----> resultsData.get', resultData.get('average'));
 resultData.delete(subjects);
 console.log(resultData);
 
+// can initialize Map with nested array of key-value pair
+let numMap = new Map([
+    ['odd', [1,3,5]],
+    ['even', [2,4,6]]
+]);
+
+console.log('numMap:: size', numMap.size);
+
+numMap.forEach((el => {
+    console.log(el);
+}));
+
 console.groupEnd();

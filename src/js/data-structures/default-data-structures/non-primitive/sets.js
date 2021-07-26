@@ -24,4 +24,9 @@ console.log(myFoodItems.has('beer'));
 myFoodItems.delete('beer');
 console.log(myFoodItems);
 
+let nums = [1,2,3,4,1,2,3,4,4,3,2,1];
+let numsSet = new Set(nums);
+
+console.log(`nums length:: ${nums.length} || set size:: ${numsSet.size}`);
+
 console.groupEnd();

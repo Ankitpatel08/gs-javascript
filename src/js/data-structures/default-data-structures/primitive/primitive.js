@@ -7,3 +7,4 @@ import './string-type';
 import './boolean-type';
 import './null-type';
 import './undefined-type';
+import './symbols';
