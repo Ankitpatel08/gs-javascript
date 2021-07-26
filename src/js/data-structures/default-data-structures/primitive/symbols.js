@@ -17,7 +17,7 @@ console.log(courseInfo);
 
 
 // Symbol.iterator
-let myName = 'Ankit Patel';
+let myName = 'Anku';
 let iterateIt = myName[Symbol.iterator]();
 
 const nameIterator = setInterval(() => {

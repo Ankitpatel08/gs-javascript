@@ -6,4 +6,5 @@ import './spread-rest';
 import './destructuring';
 import './async';
 import './generators';
+import './inheritance/inheritance';
 import './programming-paradigms/programming-paradigms';
