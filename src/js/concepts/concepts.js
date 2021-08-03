@@ -7,4 +7,6 @@ import './destructuring';
 import './async';
 import './generators';
 import './inheritance/inheritance';
+import './storage';
+import './iife';
 import './programming-paradigms/programming-paradigms';
