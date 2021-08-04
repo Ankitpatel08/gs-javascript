@@ -4,9 +4,6 @@ module.exports = {
     'env': {
         'es6': true,
     },
-    'parseOptions': {
-        'sourceType': 'module',
-    },
     'rules': {
         'strict': ['error', 'global'], // enforce 'use strict'
         'multiline-comment-style': ['error', 'starred-block'], // Formating of comment block
