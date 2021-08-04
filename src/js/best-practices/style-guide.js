@@ -1,4 +1,3 @@
-'use strict';
 console.groupCollapsed('*** Style Guide ***');
 /*
  * Style guide
