@@ -2,7 +2,7 @@
 // Cookie: 4kb, HTML4/5, manually set expiry
 // Local Storage: 10mb, HTML5, never expire
 // Session Storage: 5mb, HTML5, expires on tab close
-console.group('*** Storage ***');
+console.groupCollapsed('*** Storage ***');
 
 // local storage
 // setting item | key-value pair
