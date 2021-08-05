@@ -191,7 +191,7 @@ const warningData = {
     warningText: 'Be aware of lion',
 };
 const noWarningText = 'No warning text available'; 
-const {warning, warningText} = warningData;
+const { warning, warningText } = warningData;
 
 console.log(`${warning ? warningText : noWarningText}`);
 
