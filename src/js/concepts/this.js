@@ -62,4 +62,52 @@ class NameGenerator {
 const nG = new NameGenerator();
 console.log('ng names ::', nG.names);
 
+// Method -> Object
+// function - global (window/global);
+
+const video = {
+    title: 'video title',
+    tags: ['sports', 'trending', 'olympics'],
+    play() {
+        console.log('Object play :: ', this); // inside object this refers to object.
+    },
+    showTags() {
+        // let self = this;
+        // this.tags.forEach(function(tag) {
+        //     // inside callback function, this refers window object
+        //     console.log('tag ::', self.title, tag);
+        // });
+
+        // this.tags.forEach(function(tag) {
+        //     console.log('tag ::', this.title, tag);
+        // }, this); // passing this reference to callback function
+
+        this.tags.forEach((tag) => {
+            console.log('tag ::', this.title, tag);
+        });
+    }
+};
+
+video.stop = function() {
+    console.log('Object stop :: ',this); // inside object this refers to object.
+}
+
+video.play();
+video.stop();
+video.showTags();
+
+function playVideo() {
+    console.log('normal function :: ', this); // this refers to window object
+}
+
+playVideo();
+
+// constructor function
+function Video(title) {
+    this.title = title;
+    console.log('constructor function ::', this); // this refers to new object
+}
+
+const vObject = new Video('test title');
+
 console.groupEnd();

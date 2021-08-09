@@ -1,6 +1,6 @@
 'use strict';
 
-console.group('*** Best Practices: Data ***');
+console.groupCollapsed('*** Best Practices: Data ***');
 
 const city = 'Ahmeadabad';
 console.log('City ::', city);
