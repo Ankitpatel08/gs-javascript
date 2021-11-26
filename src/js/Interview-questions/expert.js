@@ -1,4 +1,4 @@
-console.group('*** Interview questions :: expert ***');
+console.groupCollapsed('*** Interview questions :: expert ***');
 
 // 1. what are closures in javascript?
 // Currying
@@ -33,7 +33,7 @@ let person = {
     firstName: 'Ankit'
 }
 
-console.log(person);
+console.log(person); // prototype (__proto__)
 
 String.prototype.prepend = function(value) {
     return value + this;

@@ -1,4 +1,4 @@
-console.group('*** Interview questions :: basic ***');
+console.groupCollapsed('*** Interview questions :: basic ***');
 
 // 1. what is the main difference between array methods: forEach and map?
 const numbers = [10, 20, 30, 40];
