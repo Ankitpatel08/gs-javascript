@@ -1,6 +1,38 @@
 import {createCardMarkup, injectMakup} from '../util/dom-helpers';
 console.groupCollapsed('*** This ***');
 
+// implicit binding
+const person = {
+    name: 'Ankit',
+    sayMyName: function() {
+        console.log(`Implicit:: My Name is: ${this.name}`)
+    }
+}
+
+person.sayMyName();
+
+const employee = {
+    name: 'Ankit'
+}
+
+//explicit binding
+function sayMyName() {
+    console.log(`Explicit:: My name is: ${this.name}`);
+}
+
+sayMyName.call(employee);
+
+// New 
+function Person (name) {
+    // this = {}
+    this.name = name
+}
+
+const p1 = new Person('Spiderman');
+const p2 = new Person('Superman');
+
+console.log(`NEW :: ${p1.name} + ${p2.name}`);
+
 let thisMarkup = createCardMarkup({
     title: 'Concept: This',
     description: ['A property of an execution context'],

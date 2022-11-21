@@ -9,4 +9,5 @@ import './generators';
 import './inheritance/inheritance';
 import './storage';
 import './iife';
+import './iterables';
 import './programming-paradigms/programming-paradigms';

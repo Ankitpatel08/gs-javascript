@@ -10,6 +10,8 @@ function* countDown() {
 
 let start = countDown();
 
+// start is generatorObject, which is iterable with for..of loop
+
 // yield requires to restart function | using next()
 console.log(start.next()); // value: Get | done: false
 console.log(start.next().value); // value: Set | done: false
